@@ -1,0 +1,10 @@
+numpy
+pandas
+seaborn
+matplotlib
+scikit-learn
+sweetviz
+plotly
+nbformat
+kaleido
+streamlit
