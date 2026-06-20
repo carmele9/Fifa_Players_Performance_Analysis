@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Contexto del proyecto
 
 - Análisis de jugadores de fútbol: rendimiento, valor de mercado y factores de riesgo: Este proyecto analiza un conjunto de datos de jugadores profesionales con el objetivo de entender qué variables explican mejor su valor de mercado, su rendimiento y su riesgo de transferencia.
@@ -31,3 +32,7 @@ Análisis exploratorio de datos (EDA)
 Agregaciones por grupos (clubes, nacionalidad, posición)
 Visualización avanzada de datos
 Interpretación orientada a negocio deportivo
+=======
+# Fifa_Players_Performance_Analysis
+This project makes an analysis and predictions of the performance of fifa players. 
+>>>>>>> 72e1b471f44b4d3c20e2414de03d04f21d3253d6
