@@ -63,38 +63,6 @@ def plot_club_plantilla(df):
     return fig
 
 
-# Gráfico para ver la calidad del jugados y su precio en el Mercado
-def plot_calidad_mercado(df):
-    fig = px.scatter(
-        df,
-        x="overall_rating",
-        y="market_value_million_eur",
-        color="position",
-        size="goals",
-        hover_data={
-            "age": True,
-            "club": True,
-            "position": True,
-            "overall_rating": True,
-            "goals": True,
-            "assists": True,
-            "market_value_million_eur": ":.1f"
-        },
-        opacity=0.7,
-        title="Calidad del Jugador vs Valor del Mercado"
-    )
-
-    fig.update_layout(
-        template="plotly_white",
-        title_x=0.5,
-        xaxis_title="Rating General",
-        yaxis_title="Valor Del Mercado (€ Millones)",
-        legend_title="Posición",
-        height=700
-    )
-
-    return fig
-
  # Top 15 jugadores más valiosos
 def plot_15(df):
    

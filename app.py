@@ -4,7 +4,6 @@ import pandas as pd
 from plots import (
     plot_nacionalidades_valor,
     plot_club_plantilla,
-    plot_calidad_mercado,
     plot_15,
     plot_valor_pos,
     plot_riesgo_valor,
